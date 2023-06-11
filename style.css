@@ -1,0 +1,273 @@
+@import url(//db.onlinewebfonts.com/c/9d83fb20700a3a7c45dc9acd64ab121e?family=Droid+Sans);
+@import url(//db.onlinewebfonts.com/c/258e2024617f27a5375b98dd45045979?family=Droid+Serif);
+@import url(//db.onlinewebfonts.com/c/d40bbce8f4b00a569beac2454b69231e?family=Oswald);
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(./assets/misc/grille.png);
+}
+
+ li {
+    list-style-type: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.video {
+    display: flex;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.milieu {
+    background-image: url(./assets/misc/grille.png);
+    text-align: center;
+    padding: 40px;
+    font-family: "Droid Serif";
+    font-style: italic;
+    color: rgb(141, 136, 136);
+}
+
+
+.bloc{
+    display: flex;
+    padding: 60px 500px;
+
+}
+
+.iconimg {
+    display: flex;
+}
+
+.iconimg img {
+    width: 28px;
+    height: 25px;
+}
+
+.golf{
+    display: flex;
+    flex-direction: column;
+    border: solid rgba(211, 208, 208, 0.671) 1px;
+    text-align: left;
+    width: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+
+}
+
+.accrofast{
+    flex-direction: column;
+    margin-left: 25px;
+    width: 150px;
+
+}
+
+.coms{
+    margin-left: 39px;
+    width: 360px;
+}
+
+.img-golf {
+    width: 120px;
+    height: 80px;
+}
+
+.pix{
+    display: grid;
+    grid-template-columns: 140px 140px 100px;
+    grid-auto-rows: 100px 100px ;
+}
+
+.bordure {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.titre{
+    font-family: "Oswald";
+    color: rgb(238, 150, 49);
+    font-size: 18px;
+    margin-top: 30px;
+    
+}
+
+.titrehaut{
+    font-family: "Oswald";
+    color: rgb(238, 150, 49);
+    font-size: 18px;
+    
+    
+}
+
+.soustitre{
+    font-family: "Oswald";
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.soustitre1{
+    font-family: "Oswald";
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+    padding-bottom: 14px;
+}
+
+
+
+.bas{
+    display: flex;
+    background-image: url(./assets/misc/grille.png);
+    padding-left: 300px;
+
+}
+
+.bas section {
+    width: 300px;
+    padding: 0px 20px;
+}
+
+.pied {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+
+}
+
+#orange{
+    background-color: rgb(243, 128, 61);
+    height: 5px;
+    border: none;
+}
+
+#jaune{
+    background-color: rgb(240, 195, 46);
+    height: 5px;
+    border: none;
+}
+
+#vert{
+    background-color: rgb(164, 197, 111);
+    height: 5px;
+    border: none;
+}
+
+#bleu{
+    background-color: rgb(60, 117, 204);
+    height: 5px;
+    border: none;
+}
+
+#violet{
+    background-color: rgb(167, 116, 197);
+    height: 5px;
+    border: none;
+}
+
+.nav-items {
+    padding: 0px 20px;
+}
+
+.logo{
+    padding-right: 120px ;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+    border: none;
+}
+
+.articles{
+    font-family: "Droid Sans";
+    font-size: 8px;
+    color: gray;
+    font-weight : bold;
+    line-height: 15px;
+    padding: 7px;
+    width: 80px;
+}
+
+.mini {
+    font-family: "Droid Serif";
+    color: rgb(196, 192, 192);
+    font-size: 8px;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.miniplus {
+    font-family: "Droid Serif";
+    color: rgb(196, 192, 192);
+    font-size: 12px;
+    font-style: italic;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.corps{
+    font-family: "Droid Sans";
+    color: gray;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.corpsbas{
+    font-family: "Droid Sans";
+    color: gray;
+    font-size: 8px;
+    line-height: 15px;
+    width: 130px;
+}
+
+
+.minibas{
+    font-family: "Droid Serif";
+    color: rgb(196, 192, 192);
+    font-size: 10px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.corpsgras{
+    font-family: "Droid Sans";
+    color: rgb(131, 130, 130);
+    font-size: 9px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    
+}
+
+.corpsligne{
+    font-family: "Droid Sans";
+    color: rgb(131, 130, 130);
+    font-size: 9px;
+    text-decoration: underline;
+}
+
+.corpslignep{
+    font-family: "Droid Sans";
+    color: rgb(131, 130, 130);
+    font-size: 9px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.gris{
+    background-color: rgba(231, 233, 228, 0.61);
+    height: 1px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
